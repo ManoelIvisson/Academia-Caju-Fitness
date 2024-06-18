@@ -1,7 +1,8 @@
-# Academia-Caju-Fitness
+# Academia-Caju-Fitness 
+
 Projeto de API Rest representando uma academia escolar fictícia.
 
-# Diagrama de classes
+# Diagrama de Classes
 
 ```mermaid
 classDiagram

@@ -10,6 +10,7 @@ classDiagram
     - String nome
     - String email
     - String senha
+    - String turno
   }
   class Aluno {
     - String nome
@@ -27,10 +28,6 @@ classDiagram
     - float cintura
     - float quadril
     - float coxa
-  }
-  class Vagas {
-    - int matutino
-    - int vespertino
   }
   
   Aluno -- Medidas : possui

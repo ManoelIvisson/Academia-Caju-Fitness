@@ -17,6 +17,8 @@ public class Aluno extends BasePessoa {
 	
 	private LocalDateTime dataCadastro;
 	
+	private String estado;
+	
 	@OneToOne(cascade = CascadeType.ALL)
 	private Medidas medidas;
 
@@ -52,5 +54,12 @@ public class Aluno extends BasePessoa {
 		this.medidas = medidas;
 	}
 
+	public String getEstado() {
+		return estado;
+	}
+
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
 	
 }

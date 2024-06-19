@@ -19,6 +19,8 @@ public abstract class BasePessoa {
 	@Column(length = 50, unique = true, nullable  = false)
 	private String email;
 
+	private String turno;
+	
 	public Long getId() {
 		return id;
 	}
@@ -42,6 +44,13 @@ public abstract class BasePessoa {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
+
+	public String getTurno() {
+		return turno;
+	}
+
+	public void setTurno(String turno) {
+		this.turno = turno;
+	}
 	
 }
